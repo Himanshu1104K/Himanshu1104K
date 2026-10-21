@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="410" viewBox="0 0 880 410" fill="none">
+<style>
+text{font-family:Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#EDEDF0}
+.mono{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;letter-spacing:.14em;fill:#9B9CA6}
+.muted{fill:#9B9CA6} .faint{fill:#5C5D67} .acc{fill:#C6F135}
+.up{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+.flow{stroke-dasharray:3 7;animation:flow 1.4s linear infinite}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}
+.grow{transform-box:fill-box;transform-origin:left;animation:grow 1.2s cubic-bezier(.2,.7,.2,1) both}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes flow{to{stroke-dashoffset:-20}}
+@keyframes pulse{from{opacity:.7;transform:scale(1)}to{opacity:0;transform:scale(3.2)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+<clipPath id="card"><rect width="880" height="410" rx="18"/></clipPath>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1E1F25"/></pattern>
+
+</defs>
+<rect x=".5" y=".5" width="879" height="409" rx="18" fill="#0E0F12" stroke="#25262D"/>
+<text x="40" y="46" class="mono" text-anchor="start">TOOLBOX</text>
+<text x="40" y="100" font-size="13" font-weight="500" class="muted">Languages</text>
+<g class="up" style="animation-delay:0.00s"><rect x="200" y="80" width="88" height="30" rx="15" fill="#15161A" stroke="#C6F135"/><circle cx="215" cy="95" r="3" fill="#C6F135"/><text x="226" y="100" font-size="13" font-weight="500">Python</text></g>
+<g class="up" style="animation-delay:0.00s"><rect x="295.68" y="80" width="59" height="30" rx="15" fill="#15161A" stroke="#C6F135"/><circle cx="310.68" cy="95" r="3" fill="#C6F135"/><text x="321.68" y="100" font-size="13" font-weight="500">Go</text></g>
+<g class="up" style="animation-delay:0.00s"><rect x="362.24" y="80" width="59" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="377.24" y="100" font-size="13" font-weight="500">Java</text></g>
+<line x1="40" y1="124" x2="840" y2="124" stroke="#25262D"/>
+<text x="40" y="158" font-size="13" font-weight="500" class="muted">Backend</text>
+<g class="up" style="animation-delay:0.07s"><rect x="200" y="138" width="95" height="30" rx="15" fill="#15161A" stroke="#C6F135"/><circle cx="215" cy="153" r="3" fill="#C6F135"/><text x="226" y="158" font-size="13" font-weight="500">FastAPI</text></g>
+<g class="up" style="animation-delay:0.07s"><rect x="302.96000000000004" y="138" width="81" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="317.96000000000004" y="158" font-size="13" font-weight="500">GraphQL</text></g>
+<g class="up" style="animation-delay:0.07s"><rect x="391.9200000000001" y="138" width="59" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="406.9200000000001" y="158" font-size="13" font-weight="500">REST</text></g>
+<g class="up" style="animation-delay:0.07s"><rect x="459.0400000000001" y="138" width="117" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="474.0400000000001" y="158" font-size="13" font-weight="500">SQLAlchemy 2</text></g>
+<g class="up" style="animation-delay:0.07s"><rect x="584.4000000000001" y="138" width="81" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="599.4000000000001" y="158" font-size="13" font-weight="500">Alembic</text></g>
+<g class="up" style="animation-delay:0.07s"><rect x="673.3600000000001" y="138" width="103" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="688.3600000000001" y="158" font-size="13" font-weight="500">WebSockets</text></g>
+<g class="up" style="animation-delay:0.07s"><rect x="200" y="178" width="66" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="215" y="198" font-size="13" font-weight="500">Kafka</text></g>
+<g class="up" style="animation-delay:0.07s"><rect x="274.4" y="178" width="88" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="289.4" y="198" font-size="13" font-weight="500">RabbitMQ</text></g>
+<line x1="40" y1="222" x2="840" y2="222" stroke="#25262D"/>
+<text x="40" y="256" font-size="13" font-weight="500" class="muted">AI and LLMs</text>
+<g class="up" style="animation-delay:0.14s"><rect x="200" y="236" width="110" height="30" rx="15" fill="#15161A" stroke="#C6F135"/><circle cx="215" cy="251" r="3" fill="#C6F135"/><text x="226" y="256" font-size="13" font-weight="500">LangGraph</text></g>
+<g class="up" style="animation-delay:0.14s"><rect x="317.52" y="236" width="96" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="332.52" y="256" font-size="13" font-weight="500">LangChain</text></g>
+<g class="up" style="animation-delay:0.14s"><rect x="421.03999999999996" y="236" width="52" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="436.03999999999996" y="256" font-size="13" font-weight="500">RAG</text></g>
+<g class="up" style="animation-delay:0.14s"><rect x="480.88" y="236" width="74" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="495.88" y="256" font-size="13" font-weight="500">Qdrant</text></g>
+<g class="up" style="animation-delay:0.14s"><rect x="562.56" y="236" width="88" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="577.56" y="256" font-size="13" font-weight="500">ChromaDB</text></g>
+<g class="up" style="animation-delay:0.14s"><rect x="658.8" y="236" width="66" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="673.8" y="256" font-size="13" font-weight="500">Neo4j</text></g>
+<line x1="40" y1="280" x2="840" y2="280" stroke="#25262D"/>
+<text x="40" y="314" font-size="13" font-weight="500" class="muted">Data</text>
+<g class="up" style="animation-delay:0.21s"><rect x="200" y="294" width="117" height="30" rx="15" fill="#15161A" stroke="#C6F135"/><circle cx="215" cy="309" r="3" fill="#C6F135"/><text x="226" y="314" font-size="13" font-weight="500">PostgreSQL</text></g>
+<g class="up" style="animation-delay:0.21s"><rect x="324.8" y="294" width="81" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="339.8" y="314" font-size="13" font-weight="500">PostGIS</text></g>
+<g class="up" style="animation-delay:0.21s"><rect x="413.76" y="294" width="110" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="428.76" y="314" font-size="13" font-weight="500">TimescaleDB</text></g>
+<g class="up" style="animation-delay:0.21s"><rect x="531.84" y="294" width="66" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="546.84" y="314" font-size="13" font-weight="500">MySQL</text></g>
+<g class="up" style="animation-delay:0.21s"><rect x="606.24" y="294" width="66" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="621.24" y="314" font-size="13" font-weight="500">Redis</text></g>
+<line x1="40" y1="338" x2="840" y2="338" stroke="#25262D"/>
+<text x="40" y="372" font-size="13" font-weight="500" class="muted">Infra</text>
+<g class="up" style="animation-delay:0.28s"><rect x="200" y="352" width="74" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="215" y="372" font-size="13" font-weight="500">Docker</text></g>
+<g class="up" style="animation-delay:0.28s"><rect x="281.68" y="352" width="74" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="296.68" y="372" font-size="13" font-weight="500">AWS S3</text></g>
+<g class="up" style="animation-delay:0.28s"><rect x="363.36" y="352" width="103" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="378.36" y="372" font-size="13" font-weight="500">Azure Blob</text></g>
+<g class="up" style="animation-delay:0.28s"><rect x="474.16" y="352" width="52" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="489.16" y="372" font-size="13" font-weight="500">GCP</text></g>
+<g class="up" style="animation-delay:0.28s"><rect x="534.0" y="352" width="132" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="549.0" y="372" font-size="13" font-weight="500">GitHub Actions</text></g>
+<g class="up" style="animation-delay:0.28s"><rect x="673.9200000000001" y="352" width="66" height="30" rx="15" fill="#15161A" stroke="#25262D"/><text x="688.9200000000001" y="372" font-size="13" font-weight="500">Nginx</text></g>
+</svg>

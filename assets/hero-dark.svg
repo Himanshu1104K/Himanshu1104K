@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="340" viewBox="0 0 880 340" fill="none">
+<style>
+text{font-family:Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#EDEDF0}
+.mono{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;letter-spacing:.14em;fill:#9B9CA6}
+.muted{fill:#9B9CA6} .faint{fill:#5C5D67} .acc{fill:#C6F135}
+.up{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+.flow{stroke-dasharray:3 7;animation:flow 1.4s linear infinite}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}
+.grow{transform-box:fill-box;transform-origin:left;animation:grow 1.2s cubic-bezier(.2,.7,.2,1) both}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes flow{to{stroke-dashoffset:-20}}
+@keyframes pulse{from{opacity:.7;transform:scale(1)}to{opacity:0;transform:scale(3.2)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+<clipPath id="card"><rect width="880" height="340" rx="18"/></clipPath>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1E1F25"/></pattern>
+<radialGradient id="glow"><stop offset="0" stop-color="#C6F135" stop-opacity=".16"/><stop offset="1" stop-color="#C6F135" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x=".5" y=".5" width="879" height="339" rx="18" fill="#0E0F12" stroke="#25262D"/>
+
+<g clip-path="url(#card)">
+  <rect width="880" height="340" fill="url(#dots)"/>
+  <circle cx="720" cy="40" r="300" fill="url(#glow)"/>
+</g>
+<g class="up"><text x="48" y="66" class="mono" text-anchor="start">BACKEND ENGINEER · MEERUT, INDIA</text></g>
+<text x="46" y="134" font-size="60" font-weight="700" letter-spacing="-2" class="up" style="animation-delay:0.07s">Himanshu Kumar</text>
+<g class="up" style="animation-delay:0.14s">
+  <text x="48" y="178" font-size="17" class="muted">I build the backend systems behind music,</text>
+  <text x="48" y="203" font-size="17" class="muted">AI and commerce products, in Python, FastAPI and Go.</text>
+</g>
+<g class="up" style="animation-delay:0.21s">
+  <rect x="48" y="244" width="328.64000000000004" height="38" rx="19" fill="#15161A" stroke="#25262D"/>
+  <circle cx="70" cy="263" r="4" fill="#C6F135" class="pulse"/>
+  <circle cx="70" cy="263" r="4" fill="#C6F135"/>
+  <text x="84" y="268" font-size="13" font-weight="500">Now — core backend engineer at Bump.fm</text>
+</g>
+<g class="up" style="animation-delay:0.28s">
+  <path d="M700 95 C700 119.0,700 119.0,700 143" stroke="#25262D" stroke-width="1.5"/><path d="M700 95 C700 119.0,700 119.0,700 143" stroke="#C6F135" stroke-width="1.5" class="flow"/>
+  <path d="M700 177 C700 205.0,600 205.0,600 233" stroke="#25262D" stroke-width="1.5"/><path d="M700 177 C700 205.0,600 205.0,600 233" stroke="#C6F135" stroke-width="1.5" class="flow"/><path d="M700 177 C700 205.0,700 205.0,700 233" stroke="#25262D" stroke-width="1.5"/><path d="M700 177 C700 205.0,700 205.0,700 233" stroke="#C6F135" stroke-width="1.5" class="flow"/><path d="M700 177 C700 205.0,800 205.0,800 233" stroke="#25262D" stroke-width="1.5"/><path d="M700 177 C700 205.0,800 205.0,800 233" stroke="#C6F135" stroke-width="1.5" class="flow"/>
+  <rect x="645.0" y="61" width="110" height="34" rx="9" fill="#15161A" stroke="#25262D"/><text x="700" y="82" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" class="muted">clients</text>
+  <rect x="616.0" y="143" width="168" height="34" rx="9" fill="#15161A" stroke="#C6F135"/><text x="700" y="164" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" class="acc">FastAPI · Go</text>
+  <rect x="550.0" y="233" width="100" height="34" rx="9" fill="#15161A" stroke="#25262D"/><text x="600" y="254" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" class="muted">Postgres</text><rect x="660.0" y="233" width="80" height="34" rx="9" fill="#15161A" stroke="#25262D"/><text x="700" y="254" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" class="muted">Redis</text><rect x="760.0" y="233" width="80" height="34" rx="9" fill="#15161A" stroke="#25262D"/><text x="800" y="254" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" class="muted">Kafka</text>
+  <text x="700" y="304" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing="1.4" class="faint">THE SHAPE OF MOST THINGS I BUILD</text>
+</g>
+</svg>
