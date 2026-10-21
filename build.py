@@ -17,9 +17,6 @@ SANS = "Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif"
 MONO = "'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
 THEMES = {
-    "dark": dict(card="#0E0F12", inset="#15161A", line="#25262D", text="#EDEDF0", muted="#9B9CA6",
-                 faint="#5C5D67", dots="#1E1F25", accent="#C6F135", ink="#0E0F12",
-                 easy="#4ADE80", medium="#FBBF24", hard="#F87171"),
     "light": dict(card="#FBFBF8", inset="#F2F2EC", line="#E3E3DC", text="#131316", muted="#5F606A",
                   faint="#A2A3AB", dots="#E6E6DF", accent="#4D7C0F", ink="#FFFFFF",
                   easy="#16A34A", medium="#D97706", hard="#DC2626"),
