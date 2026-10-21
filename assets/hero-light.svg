@@ -34,7 +34,7 @@ text{font-family:Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:
   <rect x="48" y="244" width="328.64000000000004" height="38" rx="19" fill="#F2F2EC" stroke="#E3E3DC"/>
   <circle cx="70" cy="263" r="4" fill="#4D7C0F" class="pulse"/>
   <circle cx="70" cy="263" r="4" fill="#4D7C0F"/>
-  <text x="84" y="268" font-size="13" font-weight="500">Now — core backend engineer at Bump.fm</text>
+  <text x="84" y="268" font-size="13" font-weight="500">Now - core backend engineer at Bump.fm</text>
 </g>
 <g class="up" style="animation-delay:0.28s">
   <path d="M700 95 C700 119.0,700 119.0,700 143" stroke="#E3E3DC" stroke-width="1.5"/><path d="M700 95 C700 119.0,700 119.0,700 143" stroke="#4D7C0F" stroke-width="1.5" class="flow"/>
