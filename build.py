@@ -40,7 +40,7 @@ STACK = [
 ]
 
 EXPERIENCE = [
-    ("APR 2025 — NOW", True, "Bump.fm", "Core backend engineer · Persist Ventures", [
+    ("APR 2025 - NOW", True, "Bump.fm", "Core backend engineer · Persist Ventures", [
         "Own 5+ Python and Go microservices behind the REST and GraphQL APIs: auth, upload, playback, playlists, discovery and leaderboards.",
         "Own the music-system layer: distribution, DSP data sharing, play logging, impression calculation and analytics.",
         "Solana token launches, AMM trading and claims, with Privy wallets and MoonPay on-ramps.",
@@ -53,7 +53,7 @@ EXPERIENCE = [
         "FastAPI REST and WebSocket backend with a 3-stage LangGraph pipeline and live streaming.",
         "Raised throughput 35% with async Redis pipelines.",
     ]),
-    ("OCT 2025 — NOW", True, "Freelance", "Commerce and marketplace backends", [
+    ("OCT 2025 - NOW", True, "Freelance", "Commerce and marketplace backends", [
         "Quick-commerce: PostGIS delivery matching and a RabbitMQ order queue at 1,000+ concurrent requests.",
         "OOH ad marketplace: GiST exclusion constraints guarantee zero double-bookings.",
         "Dairy quick-commerce: FastAPI backend, in progress.",
@@ -318,7 +318,7 @@ def fetch_leetcode():
         solved = {r["difficulty"]: r["count"] for r in data["matchedUser"]["submitStatsGlobal"]["acSubmissionNum"]}
         totals = {r["difficulty"]: r["count"] for r in data["allQuestionsCount"]}
         return {k: (solved[k], totals[k]) for k in totals} | {"rank": data["matchedUser"]["profile"]["ranking"]}
-    except Exception as e:  # noqa: BLE001 — any failure falls back to the last known numbers
+    except Exception as e:  # noqa: BLE001 - any failure falls back to the last known numbers
         print(f"LeetCode fetch failed ({e}); using fallback numbers")
         return LEETCODE_FALLBACK
 
