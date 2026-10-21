@@ -1,7 +1,9 @@
 """Renders the profile README cards as SVGs (dark + light). Stdlib only: `python build.py`."""
 import base64
 import json
+import re
 import textwrap
+import time
 import urllib.request
 from html import escape
 from pathlib import Path
@@ -325,6 +327,7 @@ def fetch_leetcode():
 
 def main():
     lc = fetch_leetcode()
+    changed = False
     for name, t in THEMES.items():
         cards = {
             "hero": hero(t), "metrics": metrics(t, lc["All"][0]), "leetcode": leetcode(t, lc),
@@ -332,7 +335,14 @@ def main():
         }
         cards |= {f"btn-{key}": button(t, text, primary) for key, text, primary in LINKS}
         for card, content in cards.items():
-            (OUT / f"{card}-{name}.svg").write_text(content)
+            path = OUT / f"{card}-{name}.svg"
+            if not path.exists() or path.read_text() != content:
+                path.write_text(content)
+                changed = True
+    if changed:
+        # A fresh ?v= timestamp on every card URL busts GitHub's 5-minute image cache.
+        readme = ROOT / "README.md"
+        readme.write_text(re.sub(r'(assets/[\w-]+\.svg)(\?v=\d+)?', rf"\1?v={int(time.time())}", readme.read_text()))
     print(f"Rendered {len(cards) * len(THEMES)} cards · LeetCode {lc['All'][0]} solved")
 
 
