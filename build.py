@@ -58,9 +58,6 @@ EXPERIENCE = [
         "OOH ad marketplace: GiST exclusion constraints guarantee zero double-bookings.",
         "Dairy quick-commerce: FastAPI backend, in progress.",
     ]),
-    ("AUG 2024 — NOW", True, "GDG on Campus MIET", "Organizer, previously Co-Lead", [
-        "Lead a 20,000+ member developer community; ran 10+ workshops and hackathons across AI, Cloud and Web.",
-    ]),
 ]
 
 LINKS = [
@@ -121,7 +118,7 @@ def hero(t):
         return (f'<path d="{d}" stroke="{t["line"]}" stroke-width="1.5"/>'
                 f'<path d="{d}" stroke="{t["accent"]}" stroke-width="1.5" class="flow"/>')
 
-    status = "Now — core backend engineer at Bump.fm"
+    status = "Now - core backend engineer at Bump.fm"
     pill_w = tw(status, 13) + 52
     body = f"""
 <g clip-path="url(#card)">
@@ -251,18 +248,19 @@ def extras(t):
             ("1st runner-up", "Fetchathon 2.0"),
             ("3rd runner-up", "Code-Genesis")]
     parts = [
-        label(40, 46, "Education"),
-        f'<text x="40" y="88" font-size="18" font-weight="650" class="up">B.Tech, CSE (AI and ML)</text>',
-        f'<text x="40" y="112" font-size="14" class="muted up">Meerut Institute of Engineering and Technology</text>',
-        f'<text x="40" y="160" font-size="32" font-weight="700" letter-spacing="-1" class="up" {delay(1)}>7.67<tspan font-size="13" font-weight="400" class="faint" dx="6">CGPA · 2022 — 2026</tspan></text>',
-        f'<line x1="440" y1="40" x2="440" y2="176" stroke="{t["line"]}"/>',
+        label(40, 46, "Community"),
+        f'<text x="40" y="88" font-size="18" font-weight="650" class="up">GDG on Campus MIET</text>',
+        f'<text x="40" y="112" font-size="14" class="muted up">Organizer and Community Lead · Aug 2025 - now</text>',
+        f'<text x="40" y="162" font-size="34" font-weight="700" letter-spacing="-1" class="up" {delay(1)}>20,000<tspan class="acc">+</tspan><tspan font-size="13" font-weight="400" class="faint" dx="8">developers</tspan></text>',
+        f'<text x="40" y="190" font-size="12" class="faint up" {delay(2)}>Co-Lead 2024 - 25 · 10+ workshops and hackathons</text>',
+        f'<line x1="440" y1="40" x2="440" y2="196" stroke="{t["line"]}"/>',
         label(472, 46, "Wins"),
     ]
     for i, (head, sub) in enumerate(wins):
-        y = 88 + i * 36
+        y = 92 + i * 44
         parts.append(f'<g class="up" {delay(i + 1)}><text x="472" y="{y}" font-size="15" font-weight="600">{head}</text>'
                      f'<text x="600" y="{y}" font-size="14" class="muted">{sub}</text></g>')
-    return svg(t, 206, "\n".join(parts))
+    return svg(t, 226, "\n".join(parts))
 
 
 def meme(t):

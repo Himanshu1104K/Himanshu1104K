@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="206" viewBox="0 0 880 206" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="226" viewBox="0 0 880 226" fill="none">
 <style>
 text{font-family:Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#131316}
 .mono{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;letter-spacing:.14em;fill:#5F606A}
@@ -14,18 +14,19 @@ text{font-family:Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 <defs>
-<clipPath id="card"><rect width="880" height="206" rx="18"/></clipPath>
+<clipPath id="card"><rect width="880" height="226" rx="18"/></clipPath>
 <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#E6E6DF"/></pattern>
 
 </defs>
-<rect x=".5" y=".5" width="879" height="205" rx="18" fill="#FBFBF8" stroke="#E3E3DC"/>
-<text x="40" y="46" class="mono" text-anchor="start">EDUCATION</text>
-<text x="40" y="88" font-size="18" font-weight="650" class="up">B.Tech, CSE (AI and ML)</text>
-<text x="40" y="112" font-size="14" class="muted up">Meerut Institute of Engineering and Technology</text>
-<text x="40" y="160" font-size="32" font-weight="700" letter-spacing="-1" class="up" style="animation-delay:0.07s">7.67<tspan font-size="13" font-weight="400" class="faint" dx="6">CGPA · 2022 — 2026</tspan></text>
-<line x1="440" y1="40" x2="440" y2="176" stroke="#E3E3DC"/>
+<rect x=".5" y=".5" width="879" height="225" rx="18" fill="#FBFBF8" stroke="#E3E3DC"/>
+<text x="40" y="46" class="mono" text-anchor="start">COMMUNITY</text>
+<text x="40" y="88" font-size="18" font-weight="650" class="up">GDG on Campus MIET</text>
+<text x="40" y="112" font-size="14" class="muted up">Organizer and Community Lead · Aug 2025 — now</text>
+<text x="40" y="162" font-size="34" font-weight="700" letter-spacing="-1" class="up" style="animation-delay:0.07s">20,000<tspan class="acc">+</tspan><tspan font-size="13" font-weight="400" class="faint" dx="8">developers</tspan></text>
+<text x="40" y="190" font-size="12" class="faint up" style="animation-delay:0.14s">Co-Lead 2024 — 25 · 10+ workshops and hackathons</text>
+<line x1="440" y1="40" x2="440" y2="196" stroke="#E3E3DC"/>
 <text x="472" y="46" class="mono" text-anchor="start">WINS</text>
-<g class="up" style="animation-delay:0.07s"><text x="472" y="88" font-size="15" font-weight="600">GATE 2025</text><text x="600" y="88" font-size="14" class="muted">Qualified in Data Science and AI</text></g>
-<g class="up" style="animation-delay:0.14s"><text x="472" y="124" font-size="15" font-weight="600">1st runner-up</text><text x="600" y="124" font-size="14" class="muted">Fetchathon 2.0</text></g>
-<g class="up" style="animation-delay:0.21s"><text x="472" y="160" font-size="15" font-weight="600">3rd runner-up</text><text x="600" y="160" font-size="14" class="muted">Code-Genesis</text></g>
+<g class="up" style="animation-delay:0.07s"><text x="472" y="92" font-size="15" font-weight="600">GATE 2025</text><text x="600" y="92" font-size="14" class="muted">Qualified in Data Science and AI</text></g>
+<g class="up" style="animation-delay:0.14s"><text x="472" y="136" font-size="15" font-weight="600">1st runner-up</text><text x="600" y="136" font-size="14" class="muted">Fetchathon 2.0</text></g>
+<g class="up" style="animation-delay:0.21s"><text x="472" y="180" font-size="15" font-weight="600">3rd runner-up</text><text x="600" y="180" font-size="14" class="muted">Code-Genesis</text></g>
 </svg>
