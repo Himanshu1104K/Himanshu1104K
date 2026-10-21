@@ -1,32 +1,46 @@
-<h1 align="center">Hi 👋, I'm Himanshu Kumar</h1>
-<h3 align="center">Passionate AI/ML Engineer with hands-on experience in LLM-based backend systems, real-time multi-agent architectures, and deep learning models for classification and anomaly detection.</h3>
+<!-- Cards are rendered by build.py and refreshed daily by .github/workflows/build.yml -->
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=himanshu1104k&label=Profile%20views&color=0e75b6&style=flat" alt="himanshu1104k" /> </p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="Himanshu Kumar. Backend engineer in Meerut, India, building backend systems for music, AI and commerce products in Python, FastAPI and Go. Currently a core backend engineer at Bump.fm.">
+</picture>
 
-- 🔭 I’m currently working on [OvaDrive Backend](https://heyova.com/)
-
-- 🌱 I’m currently learning **AI Agents(using LangChain & LangGraph), Tensorflow, Firebase with Firestore**
-
-- 📫 How to reach me **kumarHimanshu1104K@gmail.com**
-
-- 📄 Know about my experiences [https://drive.google.com/file/d/1sbQYbMU7NALvofA3pU2IrM3QpckxcXHv/view?usp=drive_link](https://drive.google.com/file/d/1sbQYbMU7NALvofA3pU2IrM3QpckxcXHv/view?usp=drive_link)
-
-- ⚡ Fun fact **I love being under pressure.**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/himanshu kumar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="himanshu kumar" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/himanshu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="himanshu" height="30" width="40" /></a>
-<a href="https://kaggle.com/himanshu1104k" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="himanshu1104k" height="30" width="40" /></a>
-<a href="https://instagram.com/him_anshu1104" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="him_anshu1104" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/himanshu1104k" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="himanshu1104k" height="30" width="40" /></a>
+<p align="center">
+  <a href="mailto:kumarHimanshu1104k@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg"><img src="assets/btn-email-light.svg" height="42" alt="Email me"></picture></a>
+  &nbsp;
+  <a href="https://linkedin.com/in/himanshukumard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img src="assets/btn-linkedin-light.svg" height="42" alt="LinkedIn"></picture></a>
+  &nbsp;
+  <a href="https://leetcode.com/u/himanshu1104k"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-leetcode-dark.svg"><img src="assets/btn-leetcode-light.svg" height="42" alt="LeetCode"></picture></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
+  <img src="assets/metrics-light.svg" width="100%" alt="By the numbers: 1.5 years of production experience, 5+ microservices owned, 570+ LeetCode problems, a 20k+ developer community, a 35% throughput gain, and 1k+ concurrent requests.">
+</picture>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=himanshu1104k&show_icons=true&locale=en&layout=compact" alt="himanshu1104k" /></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/leetcode-dark.svg">
+  <img src="assets/leetcode-light.svg" width="100%" alt="LeetCode problems solved, split into easy, medium and hard, with global rank. Synced daily.">
+</picture>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=himanshu1104k&show_icons=true&locale=en" alt="himanshu1104k" /></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img src="assets/stack-light.svg" width="100%" alt="Toolbox. Languages: Python, Go, Java. Backend: FastAPI, GraphQL, REST, SQLAlchemy 2, Alembic, WebSockets, Kafka, RabbitMQ. AI: LangGraph, LangChain, RAG, Qdrant, ChromaDB, Neo4j. Data: PostgreSQL, PostGIS, TimescaleDB, MySQL, Redis. Infra: Docker, AWS S3, Azure Blob, GCP, GitHub Actions, Nginx.">
+</picture>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=himanshu1104k&" alt="himanshu1104k" /></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/experience-dark.svg">
+  <img src="assets/experience-light.svg" width="100%" alt="Experience: core backend engineer on Bump.fm at Persist Ventures since April 2025, plus Hey Ova (AI voice assistant), MEND (real-time conflict mediation), freelance commerce backends, and GDG on Campus MIET organizer.">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/extras-dark.svg">
+  <img src="assets/extras-light.svg" width="100%" alt="Education: B.Tech in CSE (AI and ML) at MIET, CGPA 7.67, 2022 to 2026. Wins: GATE 2025 qualified in DA, 1st runner-up at Fetchathon 2.0, 3rd runner-up at Code-Genesis.">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/meme-dark.svg">
+  <img src="assets/meme-light.svg" width="100%" alt="Meme: a cat typing furiously on a laptop, captioned 'Me, shipping a hotfix at 4:59 pm on a Friday.'">
+</picture>
+
+<p align="center"><sub>Every card here is drawn by a small Python script and refreshed daily by GitHub Actions.</sub></p>
