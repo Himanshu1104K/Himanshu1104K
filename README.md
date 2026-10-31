@@ -31,13 +31,10 @@ think      LangGraph · LangChain · RAG · Qdrant · Neo4j
 ship       Docker · AWS · GCP · Azure · GitHub Actions · Nginx
 ```
 
-## Where I show up
-
-- **GDG on Campus MIET:** organizer of a 20,000+ developer community
-- **GATE 2025:** qualified in Data Science and AI
-- **Fetchathon 2.0:** 1st runner-up
-- **Code-Genesis:** 3rd runner-up
-
 ## Me, probably
 
-> Shipping a hotfix at 4:59 pm on a Friday. 🐈‍⬛⌨️
+<p align="center">
+  <img src="assets/image.gif" alt="Me, shipping a hotfix at 4:59 pm on a Friday" width="420">
+  <br>
+  <sub><i>Shipping a hotfix at 4:59 pm on a Friday.</i></sub>
+</p>
