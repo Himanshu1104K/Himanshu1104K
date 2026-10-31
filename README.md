@@ -1,6 +1,6 @@
 # Himanshu Kumar
 
-Backend engineer from Meerut, India. Core backend at **Bump.fm** (Persist Ventures).
+Based in India. Core Backend Developer at **Bump.fm** (Persist Ventures).
 
 [Email](mailto:kumarHimanshu1104k@gmail.com) · [LinkedIn](https://linkedin.com/in/himanshukumard) · [LeetCode](https://leetcode.com/himanshu1104k)
 
