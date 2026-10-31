@@ -1,19 +1,43 @@
+# Himanshu Kumar
 
+Backend engineer from Meerut, India. Core backend at **Bump.fm** (Persist Ventures).
 
-![Himanshu Kumar. Backend engineer in Meerut, India, building backend systems for music, AI and commerce products in Python, FastAPI and Go. Currently a core backend engineer at Bump.fm.](assets/hero-light.svg?v=1793437475)
+[Email](mailto:kumarHimanshu1104k@gmail.com) · [LinkedIn](https://linkedin.com/in/himanshukumard) · [LeetCode](https://leetcode.com/himanshu1104k)
 
-![Email me](assets/btn-email-light.svg?v=1793437475)   ![LinkedIn](assets/btn-linkedin-light.svg?v=1793437475)   ![LeetCode](assets/btn-leetcode-light.svg?v=1793437475)
+## How I think
 
-![By the numbers: 1.5 years of production experience, 5+ microservices owned, 570+ LeetCode problems, a 20k+ developer community, a 35% throughput gain, and 1k+ concurrent requests.](assets/metrics-light.svg?v=1793437475)
+I know I'm not the best developer in the world, or even on my team. What I do have is a different way of thinking, and I know how to work with AI instead of against it.
 
-![LeetCode problems solved, split into easy, medium and hard, with global rank. Synced daily.](assets/leetcode-light.svg?v=1793437475)
+So I stopped chasing more syntax. I spend my time learning how to **research** and how to **design systems** that are calm, clear and easy to reason about. It's the part of the job I love most.
 
-![Toolbox. Languages: Python, Go, Java. Backend: FastAPI, GraphQL, REST, SQLAlchemy 2, Alembic, WebSockets, Kafka, RabbitMQ. AI: LangGraph, LangChain, RAG, Qdrant, ChromaDB, Neo4j. Data: PostgreSQL, PostGIS, TimescaleDB, MySQL, Redis. Infra: Docker, AWS S3, Azure Blob, GCP, GitHub Actions, Nginx.](assets/stack-light.svg?v=1793437475)
+My current obsession is **10 million users**: what has to be true of a system for it to survive that.
 
-![Experience: core backend engineer on Bump.fm at Persist Ventures since April 2025, plus Hey Ova (AI voice assistant), MEND (real-time conflict mediation), and freelance commerce backends.](assets/experience-light.svg?v=1793437475)
+## What I believe about architecture
 
-![Community: organizer of GDG on Campus MIET, a 20,000+ developer community. Wins: GATE 2025 qualified in DA, 1st runner-up at Fetchathon 2.0, 3rd runner-up at Code-Genesis.](assets/extras-light.svg?v=1793437475)
+> Team size decides the architecture before traffic does.
 
-![Meme: a cat typing furiously on a laptop, captioned 'Me, shipping a hotfix at 4:59 pm on a Friday.'](assets/meme-light.svg?v=1793437475)
+- **2 to 3 developers → monolith.** One codebase, shared memory, no network hops between your own modules. When load grows, give it a bigger server, more workers, more ports. It scales much further than people think.
+- **100 developers → microservices.** The win isn't speed, it's people. Teams own their services, ship on their own and stop stepping on each other.
+- **The tax:** every service boundary turns a function call into a network call, which costs bandwidth, CPU and some throughput. Split only when the team's pain is bigger than that bill.
 
-Every card here is drawn by a small Python script and refreshed daily by GitHub Actions.
+## The toolbox
+
+```text
+speak      Python · Go · Java
+serve      FastAPI · GraphQL · REST · WebSockets
+queue      Kafka · RabbitMQ
+remember   PostgreSQL · PostGIS · TimescaleDB · Redis
+think      LangGraph · LangChain · RAG · Qdrant · Neo4j
+ship       Docker · AWS · GCP · Azure · GitHub Actions · Nginx
+```
+
+## Where I show up
+
+- **GDG on Campus MIET:** organizer of a 20,000+ developer community
+- **GATE 2025:** qualified in Data Science and AI
+- **Fetchathon 2.0:** 1st runner-up
+- **Code-Genesis:** 3rd runner-up
+
+## Me, probably
+
+> Shipping a hotfix at 4:59 pm on a Friday. 🐈‍⬛⌨️
